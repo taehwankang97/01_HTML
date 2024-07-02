@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--head 태그 : html 문서 내용의 정의-->
+    <title>목록관련태그</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <!-- body태그 : 화면 브라우저애 보여질 내용 -->
+
+    <h1>ul(unordered List)태그: 순서가 없는 목록</h1>
+
+    <h1>li(list item)태그 : 목록의 한 줄 </h1>
+
+    <ul>
+        <li>김밥</li>
+        <li>샌드위치</li>
+        <li>햄버거</li>
+        <li>제육</li>
+    </ul>
+
+    <hr>
+
+    <h1>ol순서가 있는 목록 </h1>
+
+    <pre>
+        - type 속성 : 표시되는 숫자 형식 지정
+
+        type = a 
+        type = A
+        type = i
+        type = I
+
+        start = 목록 시작번호 3 
+        reversed : 순서 뒤집기 (역순)
+
+    </pre>
+
+    <ol type="I" start = 5 reversed >
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+        <li>JAVA</li>
+        <li>DB(Oracle)</li>
+    </ol>
+
+    <hr><hr><hr>
+
+    <h1>Emmet : html, Css자동완성을 도와주는 플러그인</h1>
+
+    <pre>
+        태그명: 태그 자동완성
+
+        > : 태그 내부에 작성한다 (하위요소)
+        <br>
+        + : 태그 옆에 작성(형제)
+
+        *숫자: 숫자만큼 생성 (곱하기)
+        
+        {} : 태그 내부에 작성될 내용 
+
+        $: 1부터 1씩 증가하는 숫자 
+    </pre>
+
+        <ul>
+            <li>ul>li</li>
+        </ul>
+
+        <!-- ol>li{아아템$}-->
+        <ol>
+            <li>아이템1</li>
+            <li>아이템2</li>
+            <li>아이템3</li>
+            <li>아이템4</li>
+            <li>아이템5</li>
+        </ol>
+    <!--hr+hr+hr-->
+        <hr>
+        <hr>
+        <hr>
+
+        <h1>목록 중첩</h1>
+        <ul>
+            <li>
+                분식
+                <ul>
+                    <li>떡볶이</li>
+                    <li>순대</li>
+                    <li>튀김</li>
+                </ul>
+            </li>
+
+            <li>
+                샌드위치
+                <ol>
+                    <li>에그마요</li>
+                    <li>스테이크치즈</li>
+                    <li>슈림프</li>
+                    <li>이탈리안BMT</li>
+                </ol>
+            </li>
+        </ul>
+    
+
+
+</body>
+</html>
